@@ -1,3 +1,5 @@
+
+//new to ES6
 const bananaDiv = document.getElementById("banana");
 bananaDiv.innerHTML = 'im a banana';
 
@@ -18,4 +20,18 @@ const lastName = 'Collier';
 //greetingElement.innerHTML = 'Hello my name is ' + firstName + '' + lastName;
 greetingElement.innerHTML = `Hello my name is Wayne`;
 greetingElement.innerHTML = `Hello my name is ${firstName} ${lastName}`;
+
+//This isn't working below//
+//object shorthand notation
+let name = 'callan';
+let age = '100000000000';
+
+// let person = {
+//     name: name,
+//     age: age
+// };
+let person = {name, age};
+console.log('person :', person.name);
+
+////////////////
 
