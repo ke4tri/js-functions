@@ -34,4 +34,8 @@ let person = {name, age};
 console.log('person :', person.name);
 
 ////////////////
+//Functions
+
+
+
 
