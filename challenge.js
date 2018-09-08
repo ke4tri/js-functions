@@ -4,22 +4,14 @@ const printToDom = (stringToPrint, divId) => {
 };
 
 let bandNumber = 1
-// below is the "takeNumber function and you call it with tackNumber("bandName")"
-const takeNumber = function (bandName) {
 
-    let band = bandNumber++ + '. ' + bandName + ' ';
-    printToDom(band,'challenge');
-    // const bandString = `<h3>${bandName}</h3>`;
-    
+
+
+let takeNumber = function (bandName) {
+    const bandString = `<h3>${bandNumber}. ${bandName}</h3>`;
+    bandNumber++;
+    printToDom(bandString, 'challenge');
 }
-
-
-const bandSTring = `<h3>${bandNumber}. ${bandName</h3>`;
-bandNumber++;
-printTo....
-
-// console.log(takeNumber("Galactic Scum"));
-
 
 takeNumber("Galactic Scum") // This should display "1. Galactic Scum" in the DOM
 takeNumber("Underdogs") // This should display "2. Underdogs" in the DOM
