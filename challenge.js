@@ -13,6 +13,11 @@ const takeNumber = function (bandName) {
     
 }
 
+
+const bandSTring = `<h3>${bandNumber}. ${bandName</h3>`;
+bandNumber++;
+printTo....
+
 // console.log(takeNumber("Galactic Scum"));
 
 
