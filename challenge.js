@@ -6,6 +6,7 @@ const printToDom = (stringToPrint, divId) => {
 let bandNumber = 1
 
 
+
 let takeNumber = function (bandName) {
     const bandString = `<h3>${bandNumber}. ${bandName}</h3>`;
     bandNumber++;
